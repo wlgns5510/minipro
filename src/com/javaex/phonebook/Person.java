@@ -1,12 +1,14 @@
 package com.javaex.phonebook;
 
 public class Person {
-	//필드
+	
 	private String name;
 	private String hp;
 	private String company;
-	//생성자
-	public Person() {}
+	
+	public Person() {
+		super();
+	}
 	
 	public Person(String name, String hp, String company) {
 		super();
@@ -14,8 +16,8 @@ public class Person {
 		this.hp = hp;
 		this.company = company;
 	}
-		
-	//메소드 gs
+	
+
 	public String getName() {
 		return name;
 	}
@@ -39,14 +41,6 @@ public class Person {
 	public void setCompany(String company) {
 		this.company = company;
 	}
-		
-	//메소드 일반
-	@Override
-	public String toString() {
-		return "Person [name=" + name + ", hp=" + hp + ", company=" + company + "]";
-	}
-	public void showList() {
-		System.out.println(".  " + name + "   " + hp + "   " + company);
-	}
 	
+
 }

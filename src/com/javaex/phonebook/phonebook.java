@@ -1,17 +1,15 @@
 package com.javaex.phonebook;
 
-import java.awt.print.PrinterIOException;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Reader;
 import java.io.Writer;
-import java.util.Scanner;
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class phonebook {
 
@@ -100,10 +98,9 @@ public class phonebook {
 					break;
 			
 			case 4: number = 4;
-					System.out.println("<4.검색>");
-					System.out.print(">이름: ");
-					
-					break;
+			
+				
+				
 			
 			case 5: number = 5;
 					System.out.println("");
@@ -139,4 +136,6 @@ public class phonebook {
 		bw.close();
 		sc.close();
 	}
+
+
 }
